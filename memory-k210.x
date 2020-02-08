@@ -1,4 +1,5 @@
 _max_hart_id = 1;
+PROVIDE(_heap_size = 8M - (_ebss - _stext);
 
 MEMORY
 {
